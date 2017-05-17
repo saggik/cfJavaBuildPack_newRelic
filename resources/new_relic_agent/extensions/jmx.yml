@@ -8,6 +8,6 @@ jmx:
         type: simple
   - object_name: java.lang:type=OperatingSystem
       metrics:
-      - attributes: OpenFileDescriptorCount, SystemLoadAverage, ProcessCpuLoad, CommittedVirtualMemorySize, FreePhysicalMemorySize, AvailableProcessors, MaxFileDescriptorCount
+      - attributes: FreePhysicalMemorySize
         type: simple
 
