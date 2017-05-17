@@ -7,7 +7,6 @@ jmx:
       - attributes: ClientCount, ClinetsByEhub, EventhubCount, Latency98AfterDBSave, Latency98AfterSerialization, Latency98AfterValidation, MsgReceived, MsgReceivedRate, MsgSaveRate, MsgSaved
         type: simple
   - object_name: java.lang:type=OperatingSystem
-      metrics:
+    metrics:
       - attributes: FreePhysicalMemorySize
         type: simple
-
